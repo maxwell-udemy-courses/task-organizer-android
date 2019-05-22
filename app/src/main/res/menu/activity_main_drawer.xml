@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_task_list"
+            android:icon="@drawable/ic_task_list"
+            android:title="Lista De Tareas" />
+        <item
+            android:id="@+id/nav_task_create"
+            android:icon="@drawable/ic_task_create"
+            android:title="Crear Tarea" />
+        <item
+            android:id="@+id/nav_task_search"
+            android:icon="@drawable/ic_task_search"
+            android:title="Buscar Tarea" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_task_calendar"
+            android:title="Calendario" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_task_logout"
+            android:title="Salir" />
+    </group>
+
+</menu>
